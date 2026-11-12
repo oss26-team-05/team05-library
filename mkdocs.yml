@@ -1,0 +1,17 @@
+site_name: team05-library
+site_url: https://oss26-team-05.github.io/team05-library
+theme:
+  name: material
+nav:
+  - Home: index.md
+  - Proposal: proposal.md
+  - Team rules: team-rules.md
+  - API: api.md
+plugins:
+  - search
+  - mkdocstrings:
+      handlers:
+        python:
+          paths: [src]
+          options:
+            docstring_style: google
