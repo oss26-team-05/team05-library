@@ -4,7 +4,7 @@ from PIL import Image
 
 
 def adjust_gamma(path: str, gamma: float = 0.5) -> Image.Image:
-    """Adjust image brightness using non-linear gamma correction.
+    """Adjust image brightness using non-linear gamma correction for low-light images.
 
     Args:
         path (str): Path to the input image file.

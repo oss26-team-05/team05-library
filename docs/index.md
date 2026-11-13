@@ -1,7 +1,16 @@
-# ossimg
+# ClearVision (`team05-library`)
 
-(example) Resize, crop, and grayscale images with three functions.
+저조도(야간), 고감도 센서 노이즈, 안개 등 악천후 환경에서 촬영된 이미지의 밝기와 명암 대비를 보정하고 시인성을 복원하는 오픈소스 Python 이미지 전처리 라이브러리입니다.
 
-- [Proposal](proposal.md): what we are building and for whom
-- [API](api.md): every public function, generated from the docstrings
-- [Team rules](team-rules.md): how we work
+## 주요 전처리 기능
+
+- **`adjust_gamma`**: 비선형 감마 보정을 적용해 밝은 영역의 빛 번짐 없이 어두운 암부의 디테일을 선명하게 복원합니다.
+- **`apply_clahe`**: CLAHE 알고리즘으로 타일 단위 히스토그램을 평활화하여 노이즈 증폭을 억제하면서 국소 명암 대비를 개선합니다.
+- **`denoise_bilateral`**: 공간 거리와 색상 유사도를 함께 계산하는 양방향 필터를 적용해 물체의 윤곽선을 보존하면서 고주파 노이즈를 완화합니다.
+- **`dehaze_dark_channel`**: 다크 채널 사전 확률(Dark Channel Prior) 기반으로 대기 산란광과 전달률을 추정해 안개와 연무를 제거합니다.
+
+## 문서 안내
+
+- [Proposal](proposal.md): 프로젝트 기획 배경, 타겟 사용자 및 상세 기능 명세
+- [API](api.md): 핵심 전처리 함수들의 입출력 파라미터, 예외 처리 및 사용 예시
+- [Team rules](team-rules.md): Team 05의 GitHub 협업 규칙, 코드 리뷰 및 커밋 컨벤션
