@@ -1,5 +1,6 @@
 """Core image preprocessing functions for ClearVision."""
 
+import numpy as np
 from PIL import Image
 
 
@@ -22,7 +23,12 @@ def adjust_gamma(path: str, gamma: float = 0.5) -> Image.Image:
         >>> img.mode
         'RGB'
     """
-    raise NotImplementedError
+    if gamma <= 0:
+        raise ValueError("gamma must be positive")
+    img = Image.open(path).convert("RGB")
+    arr = np.asarray(img, dtype=np.float32) / 255.0
+    corrected = np.clip((arr ** gamma) * 255.0, 0, 255).astype(np.uint8)
+    return Image.fromarray(corrected)
 
 
 def apply_clahe(
