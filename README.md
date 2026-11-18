@@ -48,7 +48,8 @@ TODO
 정성태(@asnm0926-wq)-전처리 모듈 개발 및 품질 검즘
 AI 사용 고지: 모든 pull request의 ##ai use 섹션에 사용 도구, 대상 파일, 활용 방식 및 직접 검증 내역을 명시합니다
 <!-- 정성태 작성 구역: 본인 이름/GitHub ID 및 AI 사용 고지 규칙 한 줄 작성 -->
-
+- 정준오 (@Dahlia-ui) - 전처리 모듈 개발 및 테스트
+  협업 규칙: [docs/team-rules.md](docs/team-rules.md)
 ## 9. License
 
 이 프로젝트는 **MIT License**를 따릅니다. 자세한 내용은 [LICENSE](LICENSE) 파일을 참고하세요.
