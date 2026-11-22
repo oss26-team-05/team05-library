@@ -28,7 +28,8 @@ restored_img.save("samples/night_restored.jpg")
 
 ## 4. Dependencies
 
-<!-- 김원 작성 구역: Pillow, numpy 라이브러리와 라이선스, 역할 작성 -->
+- Pillow>=10 (MIT-CMU License) – 이미지 파일 입출력 및 포맷 변환
+- numpy>=1.26 (BSD 3-Clause License) – 픽셀 배열 연산 및 수치 처리
 
 ## 5. Tests
 
