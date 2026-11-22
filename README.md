@@ -35,8 +35,10 @@ restored_img.save("samples/night_restored.jpg")
 TODO
 
 ## 6. Documentation
+- Documentation Site: [https://oss26-team-05.github.io/team05-library/](https://oss26-team-05.github.io/team05-library/)
 
-<!-- 배건영 작성 구역: GitHub Pages 문서 사이트 주소와 API 페이지 링크 작성 -->
+- API Reference: [https://oss26-team-05.github.io/team05-library/api/](https://oss26-team-05.github.io/team05-library/api/)
+
 
 ## 7. Release
 
