@@ -28,17 +28,17 @@ restored_img.save("samples/night_restored.jpg")
 
 ## 4. Dependencies
 
-- Pillow>=10 (MIT-CMU License) – 이미지 파일 입출력 및 포맷 변환
-- numpy>=1.26 (BSD 3-Clause License) – 픽셀 배열 연산 및 수치 처리
+- `Pillow>=10` (MIT-CMU License) — 이미지 파일 입출력 및 포맷 변환
+- `numpy>=1.26` (BSD 3-Clause License) — 픽셀 배열 연산 및 수치 처리
 
 ## 5. Tests
 
 TODO
 
 ## 6. Documentation
-- Documentation Site: [https://oss26-team-05.github.io/team05-library/](https://oss26-team-05.github.io/team05-library/)
 
-- API Reference: [https://oss26-team-05.github.io/team05-library/api/](https://oss26-team-05.github.io/team05-library/api/)
+- Documentation Site: https://oss26-team-05.github.io/team05-library/
+- API Reference: https://oss26-team-05.github.io/team05-library/api/
 
 ## 7. Release
 
@@ -47,10 +47,13 @@ TODO
 ## 8. Team
 
 - **이승준** (`@seungjun0307`) — 팀장, 아키텍처 설계 및 패키징/배포 총괄
-- **정성태** (`@asnm0926-wq`) - 전처리 모듈 개발 및 품질 검즘
-AI 사용 고지: 모든 pull request의 ##ai use 섹션에 사용 도구, 대상 파일, 활용 방식 및 직접 검증 내역을 명시합니다
-- 정준오 (@Dahlia-ui) - 전처리 모듈 개발 및 테스트
-  협업 규칙: [docs/team-rules.md](docs/team-rules.md)
+- **김원** (`@kimw0n`) — 전처리 모듈 개발 및 의존성 관리
+- **배건영** (`@logan01023-lgtm`) — 전처리 모듈 개발 및 문서화
+- **정성태** (`@asnm0926-wq`) — 전처리 모듈 개발 및 품질 검증
+- **정준오** (`@Dahlia-ui`) — 전처리 모듈 개발 및 테스트
+- **협업 규칙**: [docs/team-rules.md](docs/team-rules.md)
+- **AI 사용 고지**: 모든 Pull Request의 `## AI use` 섹션에 사용 도구, 대상 파일, 활용 방식 및 직접 검증 내역을 명시합니다.
+
 ## 9. License
 
 이 프로젝트는 **MIT License**를 따릅니다. 자세한 내용은 [LICENSE](LICENSE) 파일을 참고하세요.
