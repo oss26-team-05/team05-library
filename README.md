@@ -40,7 +40,6 @@ TODO
 
 - API Reference: [https://oss26-team-05.github.io/team05-library/api/](https://oss26-team-05.github.io/team05-library/api/)
 
-
 ## 7. Release
 
 TODO
